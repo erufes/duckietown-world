@@ -53,7 +53,7 @@ install_requires = [
     "typing_extensions",
     "zuper-commons-z6",
     "zuper-ipce-z6",
-    "zuper-typing-z6>=6.0.66",
+    "zuper-typing-z6",
     "ipython",
 ]
 tests_require = ["comptests-z6", "compmake-z6>=6.1.1"]
