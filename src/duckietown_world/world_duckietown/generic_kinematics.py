@@ -23,8 +23,8 @@ class GenericKinematicsSE2(PlatformDynamicsFactory, PlatformDynamics, Serializab
     def __init__(self, c0: TSE2value, t0: float):
         # start at q0, v0
         q0, v0 = c0
-        geo.SE2.belongs(q0)
-        geo.se2.belongs(v0)
+        # geo.SE2.belongs(q0)
+        # geo.se2.belongs(v0)
         self.t0 = t0
         self.v0 = v0
         self.q0 = q0
